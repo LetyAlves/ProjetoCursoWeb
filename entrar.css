@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #E2DFCF;
+    background-attachment: fixed;
+}
+    
+header {
+    background-color: #21412C;
+    padding: 10px;
+    text-align: center;
+}
+  
+h1 {
+    font-family: "Orelega One", serif;
+    font-size: 35px;
+    font-weight: 400;
+    font-style: normal;
+    color: #E2DFCF;
+}
+  
+nav {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+}
+  
+nav a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    color: #E2DFCF;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+nav a:hover {
+    background-color: none;
+    color: #9E9B8B;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    font-style: normal;
+    color: #21412C;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #21412C;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    color: #E2DFCF;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.form-1 {
+    
+}
+
+label {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    color: #21412C;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    color: #585858;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #21412C;
+    border: none;
+    color: #E2DFCF;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 100%;
+    }
+}
